@@ -13,3 +13,5 @@ add_Maja()
 add_Mika()
 add_Maria()
 add_Rosa()
+
+P1()
