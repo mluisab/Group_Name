@@ -1,2 +1,2 @@
-def addd_name ():
-    print ("Name:")
+def add_Maria ():
+    print ("Maria")
