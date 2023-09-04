@@ -5,6 +5,12 @@ from file_mika import *
 from file_maria import *
 from file_Rosa import *
 from file import *
+from DamarisP import *
+from IsisP import *
+from majaP import *
+from mariaP import *
+from mikaP import *
+from RosaP import *
 
 Introduction()
 add_Damaris()
