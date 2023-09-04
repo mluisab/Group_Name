@@ -1,10 +1,8 @@
-from file_Damaris import *
-from file_Isis import *
-from file_maja import *
-from file_mika import *
-from file_maria import *
-from file_Rosa import *
-from file import *
+from file_Damaris import luna
+from file_maja import paula
+from file_mika import anna
+from file_maria import emily
+from file_Rosa import karen
 
 def add_Isis():
     print("Isis")
