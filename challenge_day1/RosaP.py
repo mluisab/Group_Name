@@ -11,6 +11,6 @@ def P5():
 def P11():
     print(f"Prepared for battle,{emily}, {anna}, {karen}, {luna} and {paula} entered THE COMMON ROOM. They heard a “sssssss….” coming from the foosball table. Once again, {wizard} appeared exclaiming “To win Python you must play!” The ultimate Fussball battle began with the wizard as the referee.")
 
-def P1():
+def P17():
     print(f"However it wasn't the project’s power that defined their greatness but the teamwork and friendship they shared. Their bond remained stronger than ever, where {anna}, {emily}, {karen}, {luna} and {paula} along with the wizard {wizard} continued to inspire awe and wonder for generations to come.")
           
