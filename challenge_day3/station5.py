@@ -13,4 +13,8 @@ def solution_station_5(station5_input):
 
 station5_input = "Isis"  
 station5_output = solution_station_5(station5_input)
+<<<<<<< HEAD
 print(f"Team for {station5_input}: {station5_output}")
+=======
+print(f"Team for {station5_input}: {station5_output}")
+>>>>>>> d684b8da1c9b12c240c5bef89019a2baf82bfcf8
