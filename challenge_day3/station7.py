@@ -9,4 +9,4 @@ def solution_station_7(equation):
    
    answer= eval(equation, {'a':a, 'b':b, 'c':c, 'd':d, 'e':e})
    return answer
-print(solution_station_7())
+print(solution_station_7(equation))
