@@ -1,12 +1,10 @@
-x = int(input("Put in the number: "))
-
-def solution (x):
+def solution_station_1 (x):
     n1 = 0
     n2 = 1
     count = 0
 
     if x < 0:
-        x = int(input("Put in the number: "))
+        print("negative number")
     if x == 0:
         print(f'{n1}')
     if x == 1:
@@ -20,7 +18,7 @@ def solution (x):
             count += 1
     return n1
 
-solution_station_1 = solution(x)
+
 
 
 
