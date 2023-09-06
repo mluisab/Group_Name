@@ -11,9 +11,13 @@ def solution_station_5(station5_input):
     except ValueError:
         return "Name not found"  
 
-station5_input = "Isis"  
+station5_input = input("Enter a name: ")
 station5_output = solution_station_5(station5_input)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0195fdc006ab3a39557f4785009c3dcaac08ee9
 print(f"Team for {station5_input}: {station5_output}")
 =======
 print(f"Team for {station5_input}: {station5_output}")
