@@ -20,10 +20,4 @@ def solution_station_2(date_str):
     except ValueError:
         return "Invalid date format. Please use YYYY-MM-DD."
 
-# Get user input for a date in the format YYYY-MM-DD
-date_str = input("Enter a date (YYYY-MM-DD): ")
-
-# Call the custom function and print the result
-result = solution_station_2(date_str)
-print(result)
 
