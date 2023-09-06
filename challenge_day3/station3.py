@@ -1,9 +1,8 @@
 
-# ask user to enter a number (integer)
-x = int(input("Enter a number "))
+def solution_station_3(x):
+    return x % 3 == 0
 
-# is the number divisible by 3
-divide_3 = (x % 3 == 0)
+number = int(input("Please enter a number"))
 
-# print True or False
-print(divide_3)
+answer = solution_station_3(number)
+print(answer)
