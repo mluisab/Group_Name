@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 def solution_station_1 (x):
     n1 = 0
     n2 = 1
@@ -24,4 +22,3 @@ def solution_station_1 (x):
 
 
 
->>>>>>> d684b8da1c9b12c240c5bef89019a2baf82bfcf8
