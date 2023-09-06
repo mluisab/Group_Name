@@ -1,3 +1,4 @@
+
 x = int(input("Enter a number: "))
 
 def solution_station_4(numb):
