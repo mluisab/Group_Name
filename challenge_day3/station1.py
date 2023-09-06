@@ -1,6 +1,6 @@
 x = int(input("Put in the number: "))
 
-def solution_station_1 (x):
+def solution (x):
     n1 = 0
     n2 = 1
     count = 0
@@ -20,8 +20,7 @@ def solution_station_1 (x):
             count += 1
     return n1
 
-result = solution_station_1(x)
+solution_station_1 = solution(x)
 
-print(result)
 
 
