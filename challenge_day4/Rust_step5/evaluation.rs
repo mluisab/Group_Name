@@ -14,7 +14,7 @@ fn main() -> io::Result<()> {
         .create(true)
         .open("data6.txt")?;
     
-    for (indexing, line) in reader.lines().enumerate() {
+    for (index, line) in reader.lines().enumerate() {
         let line = line?;
         
         if index == 0 {
@@ -52,7 +52,7 @@ fn main() -> io::Result<()> {
                 _ => (), // Skip if it's something else
             }
         }
-        
+    
         let evaluation = if num_skills > 0 {
             (total_score as f32) / (num_skills as f32)
         } else {
@@ -64,4 +64,3 @@ fn main() -> io::Result<()> {
     
     Ok(())
 }
-

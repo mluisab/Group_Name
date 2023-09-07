@@ -7,7 +7,7 @@ if (!requireNamespace("jsonlite", quietly = TRUE)) {
 library(jsonlite)
 
 # Read the JSON file into a data frame
-json_data <- fromJSON("One\\challenge_day4\\testdata\\data1.json")
+json_data <- fromJSON("One\\challenge_day4\\fulldata\\data1.json")
 
 # Convert the 'people' list to a data frame
 people_df <- as.data.frame(json_data$people)
