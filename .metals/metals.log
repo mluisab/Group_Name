@@ -546,3 +546,5 @@ Sep 07, 2023 3:48:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 2023.09.07 15:49:05 INFO  compiling one-2_bd2c96d2de (2 scala sources)
 2023.09.07 15:49:07 INFO  time: compiled One-2_bd2c96d2de in 2.82s
+Sep 07, 2023 3:51:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
