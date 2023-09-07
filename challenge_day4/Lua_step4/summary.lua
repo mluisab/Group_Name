@@ -11,7 +11,7 @@ SummaryMetaTable = {
 
 -- Read data from `data4.txt`
 local lines = {}
-for line in io.lines("C:\\Users\\Yoga\\One-2\\challenge_day4\\Lua_step4\\data4.txt") do
+for line in io.lines("C:\\Users\\Yoga\\One-2\\challenge_day4\\fulldata\\data4.txt") do
     table.insert(lines, line)
 end
 
