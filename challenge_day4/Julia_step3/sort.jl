@@ -1,7 +1,7 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 # Read the CSV file into a DataFrame
-people_df = CSV.File("C:\\Users\\31622\\Documents\\One\\challenge_day4\\testdata\\data3.csv") |> DataFrame
+people_df = CSV.File("C:\\Users\\31622\\Documents\\One\\challenge_day4\\Lua_step4\\data3.csv") |> DataFrame
 #print(people_df)
 
 # Function to classify a score based on quartiles
