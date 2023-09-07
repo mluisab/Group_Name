@@ -38,7 +38,7 @@ for col_name in names(people_df)[2:end]
 end
 
 # Save the modified DataFrame back to a new CSV file
-CSV.write("C:\\Users\\31622\\Documents\\One\\challenge_day4\\data4.txt", people_df)
+CSV.write("C:\\Users\\31622\\Documents\\One\\challenge_day4\\fulldata\\data4.txt", people_df)
 
 # Save the modified DataFrame back to a new TXT file
 #writedlm("data4.txt", people_df, ',')
