@@ -1,7 +1,8 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 # Read the CSV file into a DataFrame
-people_df = CSV.File("data3.csv") |> DataFrame
+people_df = CSV.File("C:\\Users\\31622\\Documents\\One\\challenge_day4\\testdata\\data3.csv") |> DataFrame
+#print(people_df)
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
@@ -32,12 +33,12 @@ for col_name in names(people_df)[2:end]
     quartiles = quantile(valid_data, [0.25, 0.5, 0.75])
 
     # Replace values with categories or 'low' if they are Float64
-    new_col = map(x -> x isa Float64 ? "low" : classification_score(x, quartiles), col_data)
+    new_col = map(x -> x isa Float64 ? "low" : classify_score(x, quartiles), col_data)
     people_df[!, col_name] = new_col
 end
 
 # Save the modified DataFrame back to a new CSV file
-CSV.write("data4.txt", people_df)
+CSV.write("C:\\Users\\31622\\Documents\\One\\challenge_day4\\data4.txt", people_df)
 
 # Save the modified DataFrame back to a new TXT file
 #writedlm("data4.txt", people_df, ',')
